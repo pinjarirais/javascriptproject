@@ -1,0 +1,19 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{font-family: 'Poppins', sans-serif; background-color: #f8f8f8;}
+input,textarea,button{font-family: 'Poppins', sans-serif;}
+.container{max-width: 1024px; width: 100%; background-color: #fff; height: 100vh; display: table; margin: 0 auto; padding: 0;}
+.header{display: flex; align-items: center; flex-direction: row; width: 100%; height: 70px; font-size: 18px; background-color: orange; color: #fff; padding: 0 20px; font-weight: 600;}
+.header i{margin-right: 10px;}
+.editbtn_outer{display: flex; width: 100%; justify-content: flex-end; padding: 10px 20px;}
+.editbtn{display: inline-flex; height: 34px; min-width: 120px; align-items: center; justify-content: center; background-color: #0076d7; border-radius: 6px; border: 0; color: #fff; font-weight: 500; cursor: pointer; filter: drop-shadow(0 0 1px #0076d7);}
+.editbtn i{margin-right: 5px;}
+
+.noteouter{display: flex; width: 100%; padding: 20px; flex-wrap: wrap;}
+.note{display: inline-flex; flex-direction: column; width: 250px; background-color: #f2f2f2; border-radius: 6px; padding: 10px; margin-right: 20px; margin-bottom: 20px;}
+.note textarea{resize: none; border: 0; border: 0; outline: none; padding: 6px; margin: 0; font-size: 14px; color: #111; border-radius: 4px;}
+.btn{display: flex; justify-content: flex-end; padding-bottom: 15px;}
+.btn button{ border: 0; color: #fff; background-color: #2ecc71; border-radius: 50%; height: 25px; width: 25px; cursor: pointer; font-size: 10px; filter: drop-shadow(0 0 2px rgba(0,0,0,0.3));}
+.btn button:last-child{background-color: #e74c3c; margin-left: 10px;}
+.btn button:hover{background-color: #fff; color:#666;}
+.maintext{font-size: 14px; color: #111; background-color: #fff; padding: 5px; border-radius: 4px;}
+.hidden{display: none};

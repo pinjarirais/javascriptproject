@@ -1,0 +1,9 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{font-family: 'Poppins', sans-serif; background-color: #f8f8f8;}
+.container{max-width: 1024px; width: 100%; background-color: #fff; height: 100vh; display: table; margin: 0 auto; padding: 0 20px;}
+
+.conunter_outer{display: flex; justify-content: space-around; align-items: center; height: 100vh;}
+.conunter_container{display: inline-flex; flex-direction: column; align-items: center;}
+.conunter_container i{font-size: 50px; color: rebeccapurple;}
+.conunter_text{font-size: 18px; font-weight: 500;}
+.counter{font-size: 50px; color: orange; padding-top: 15px;}
